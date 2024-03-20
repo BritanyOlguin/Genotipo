@@ -8,6 +8,12 @@ class Dashboard extends BaseController
 {
     public function index()
     {
-        return view('dashboard/index');
+        if (!service('authentication')->check()) {
+            return redirect()->to('/login');
+        }
+
+        $data['user'] = service('authentication')->user();
+
+        return view('dashboard/index', $data);
     }
 }
