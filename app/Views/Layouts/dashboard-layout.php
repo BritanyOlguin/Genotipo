@@ -7,11 +7,11 @@
     <title>Dashboard</title>
 
     <!-- Google Font: Source Sans Pro -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <link rel="stylesheet" href="<?= base_url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback') ?>">
     <!-- Font Awesome Icons -->
-    <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="<?= base_url('plugins/fontawesome-free/css/all.min.css') ?>">
     <!-- Theme style -->
-    <link rel="stylesheet" href="dist/css/adminlte.min.css">
+    <link rel="stylesheet" href="<?= base_url('dist/css/adminlte.min.css') ?>">
 </head>
 
 <body class="hold-transition sidebar-mini">
@@ -44,7 +44,7 @@
         <aside class="main-sidebar sidebar-dark-primary elevation-4">
             <!-- Brand Logo -->
             <a href="dashboard" class="brand-link">
-                <img src="dist/img/AdminUpperLogistics.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+                <img src="<?= base_url('dist/img/AdminUpperLogistics.png') ?>" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
                 <span class="brand-text font-weight-light">UPPER LOGISTICS</span>
             </a>
 
@@ -53,10 +53,12 @@
                 <!-- Sidebar user panel (optional) -->
                 <div class="user-panel mt-3 pb-3 mb-3 d-flex">
                     <div class="image">
-                        <img src="dist/img/UserGenotipo.png" class="img-circle elevation-2" alt="User Image">
+                        <img src="<?= base_url('dist/img/UserGenotipo.png') ?>" class="img-circle elevation-2" alt="User Image">
                     </div>
                     <div class="info">
-                        <a href="#" class="d-block"><?= esc($user->username) ?></a>
+                        <?php if (isset($user)) : ?>
+                            <a href="#" class="d-block"><?= esc($user->username) ?></a>
+                        <?php endif; ?>
                     </div>
                 </div>
 
@@ -77,7 +79,7 @@
                     <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
 
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="<?= site_url('servicios') ?>" class="nav-link">
                                 <i class="nav-icon fas fa-briefcase"></i>
                                 <p>
                                     Servicios
@@ -113,12 +115,13 @@
 
     <!-- REQUIRED SCRIPTS -->
 
+
     <!-- jQuery -->
-    <script src="plugins/jquery/jquery.min.js"></script>
+    <script src="<?= base_url('plugins/jquery/jquery.min.js') ?>"></script>
     <!-- Bootstrap 4 -->
-    <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="<?= base_url('plugins/bootstrap/js/bootstrap.bundle.min.js') ?>"></script>
     <!-- AdminLTE App -->
-    <script src="dist/js/adminlte.min.js"></script>
+    <script src="<?= base_url('dist/js/adminlte.min.js') ?>"></script>
 </body>
 
 </html>
