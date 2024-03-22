@@ -14,6 +14,6 @@ class Dashboard extends BaseController
 
         $data['user'] = service('authentication')->user();
 
-        return view('servicios/index', $data);
+        return view('dashboard/index', $data);
     }
 }

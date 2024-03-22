@@ -17,6 +17,12 @@ class ServicioController extends BaseController
 
     public function index()
     {
+        if (!service('authentication')->check()) {
+            return redirect()->to('/login');
+        }
+
+        $data['user'] = service('authentication')->user();
+
         // Recuperar todos los servicios y pasarlos a la vista
         $data['servicios'] = $this->servicioModel->findAll();
         return view('servicios/index', $data);
