@@ -102,6 +102,7 @@ _modules/*
 
 # Netbeans
 nbproject/
+# storage/
 nbbuild/
 nbdist/
 nbactions.xml

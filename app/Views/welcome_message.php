@@ -17,7 +17,7 @@
                 <div class="input-collector-child"></div>
                 <header class="header-transparente">
                     <div class="function-hub">
-                        <img class="logo-icon" loading="lazy" alt="" src="./storage/Img/logo.svg" />
+                        <img class="logo-icon" loading="lazy" alt="" src="./Img/logo.svg" />
 
                         <div class="iteration-loop">
                             <div class="inicio-nosotros-almacenaje">
@@ -34,14 +34,14 @@
                             <div class="frame-wrapper">
                                 <div class="control-flow-parent">
                                     <div class="control-flow">
-                                        <img class="variable-holder-icon" loading="lazy" alt="" src="./storage/Img/vector.svg" />
+                                        <img class="variable-holder-icon" loading="lazy" alt="" src="./Img/vector.svg" />
                                     </div>
                                     <div class="function-caller">554 192 5311</div>
                                 </div>
                             </div>
                             <div class="error-handler">
                                 <span class="flag-mexico">
-                                    <img src="./storage/Img/Mexico.png" width="20" height="20" alt="Bandera México">
+                                    <img src="./Img/Mexico.png" width="20" height="20" alt="Bandera México">
                                 </span>
                             </div>
 
@@ -49,14 +49,14 @@
 
                         </div>
                     </div>
-                    <img class="header-transparente-item" loading="lazy" alt="" src="./storage/Img/group-2@2x.png" />
+                    <img class="header-transparente-item" loading="lazy" alt="" src="./Img/group-2@2x.png" />
                 </header>
                 <div class="input-processor">
                     <div class="output-combiner">
                         <div class="value-converter">
-                            <img class="value-converter-child" alt="" src="./storage/Img/rectangle-45.svg" />
+                            <img class="value-converter-child" alt="" src="./Img/rectangle-45.svg" />
 
-                            <img class="mask-group-icon" loading="lazy" alt="" src="./storage/Img/mask-group@2x.png" />
+                            <img class="mask-group-icon" loading="lazy" alt="" src="./Img/mask-group@2x.png" />
                         </div>
                         <div class="data-routed">
                             <div class="input-validator">
@@ -87,7 +87,7 @@
             <div class="variable-modifier">
                 <div class="rectangle-parent">
                     <div class="frame-child"></div>
-                    <img class="output-filter-icon" alt="" src="./storage/Img/vector-1.svg" />
+                    <img class="output-filter-icon" alt="" src="./Img/vector-1.svg" />
 
                     <div class="lo-creaste-lo-prote-wrapper">
                         <div class="lo-creaste-lo">
@@ -146,7 +146,7 @@
                     <div class="me-interesa">Me interesa</div>
                 </button>
             </div>
-            <img class="mask-group-icon1" alt="" src="./storage/Img/mask-group-1@2x.png" />
+            <img class="mask-group-icon1" alt="" src="./Img/mask-group-1@2x.png" />
         </section>
         <section class="data-aggregator-wrapper">
             <div class="data-aggregator">
@@ -161,7 +161,7 @@
                                     <button class="frame-container">
                                         <div class="ellipse-parent">
                                             <div class="frame-item"></div>
-                                            <img class="shape-icon" alt="" src="./storage/Img/shape.svg" />
+                                            <img class="shape-icon" alt="" src="./Img/shape.svg" />
                                         </div>
                                     </button>
                                     <div class="lo-creaste-lo-prote-parent">
@@ -183,14 +183,14 @@
                             </div>
                         </div>
                     </div>
-                    <img class="input-filter-child" loading="lazy" alt="" src="./storage/Img/group-11.svg" />
+                    <img class="input-filter-child" loading="lazy" alt="" src="./Img/group-11.svg" />
                 </div>
                 <div class="data-aggregator-inner">
                     <div class="frame-div">
                         <button class="frame-button">
                             <div class="ellipse-group">
                                 <div class="frame-inner"></div>
-                                <img class="group-icon" alt="" src="./storage/Img/group.svg" />
+                                <img class="group-icon" alt="" src="./Img/group.svg" />
                             </div>
                         </button>
                         <div class="lo-creaste-lo-prote-group">
@@ -226,7 +226,7 @@
                         de alta tecnología para satisfacer las necesidades de tu
                         negocio.</span>
                 </div>
-                <img class="frame-child2" loading="lazy" alt="" src="./storage/Img/group-16@2x.png" />
+                <img class="frame-child2" loading="lazy" alt="" src="./Img/group-16@2x.png" />
             </div>
         </section>
         <section class="por-que-upper-inner">
@@ -235,14 +235,14 @@
                     <h1 class="lo-creaste-lo8">Nuestros almacenes en México</h1>
                 </div>
                 <div class="screen-shot-2024-02-08-at-132-parent">
-                    <img class="screen-shot-2024-02-08-at-132" loading="lazy" alt="" src="./storage/Img/screen-shot-20240208-at-1321-1@2x.png" />
+                    <img class="screen-shot-2024-02-08-at-132" loading="lazy" alt="" src="./Img/screen-shot-20240208-at-1321-1@2x.png" />
 
                     <div class="frame-wrapper1">
                         <div class="frame-parent2">
                             <div class="frame-parent3">
                                 <div class="frame-parent4">
                                     <div class="vector-wrapper">
-                                        <img class="vector-icon" alt="" src="./storage/Img/vector-1.svg" />
+                                        <img class="vector-icon" alt="" src="./Img/vector-1.svg" />
                                     </div>
                                     <h3 class="lo-creaste-lo9">Querétaro</h3>
                                 </div>
@@ -253,7 +253,7 @@
                             <div class="frame-parent5">
                                 <div class="frame-parent6">
                                     <div class="vector-container">
-                                        <img class="vector-icon1" alt="" src="./storage/Img/vector-1.svg" />
+                                        <img class="vector-icon1" alt="" src="./Img/vector-1.svg" />
                                     </div>
                                     <h3 class="lo-creaste-lo10">Cuautitlán</h3>
                                 </div>
@@ -264,7 +264,7 @@
                             <div class="frame-parent7">
                                 <div class="frame-parent8">
                                     <div class="vector-frame">
-                                        <img class="vector-icon2" alt="" src="./storage/Img/vector-1.svg" />
+                                        <img class="vector-icon2" alt="" src="./Img/vector-1.svg" />
                                     </div>
                                     <h3 class="lo-creaste-lo11">Guadalajara</h3>
                                 </div>
@@ -275,7 +275,7 @@
                             <div class="frame-parent9">
                                 <div class="frame-parent10">
                                     <div class="vector-wrapper1">
-                                        <img class="vector-icon3" alt="" src="./storage/Img/vector-1.svg" />
+                                        <img class="vector-icon3" alt="" src="./Img/vector-1.svg" />
                                     </div>
                                     <h3 class="lo-creaste-lo12">Manzanillo</h3>
                                 </div>
@@ -301,7 +301,7 @@
                 </div>
             </div>
         </section>
-        <img class="por-que-upper-item" alt="" src="./storage/Img/group-69.svg" />
+        <img class="por-que-upper-item" alt="" src="./Img/group-69.svg" />
 
         <section class="frame-section">
             <div class="frame-child3"></div>
@@ -336,7 +336,7 @@
             <div class="footer-item"></div>
             <div class="frame-parent15">
                 <div class="image-1-parent">
-                    <img class="image-1-icon" loading="lazy" alt="" src="./storage/Img/image-1@2x.png" />
+                    <img class="image-1-icon" loading="lazy" alt="" src="./Img/image-1@2x.png" />
 
                     <div class="lo-creaste-lo-prote-parent5">
                         <div class="lo-creaste-lo19">Almacenaje</div>
@@ -378,12 +378,12 @@
                     <div class="frame-parent17">
                         <div class="group-div">
                             <div class="noun-phone-2331176-wrapper">
-                                <img class="noun-phone-2331176-icon" loading="lazy" alt="" src="./storage/Img/nounphone2331176.svg" />
+                                <img class="noun-phone-2331176-icon" loading="lazy" alt="" src="./Img/nounphone2331176.svg" />
                             </div>
                             <a class="y-44" href="tel:5541925325" target="_blank">55 4192 5325</a>
                         </div>
                         <div class="vector-wrapper2">
-                            <img class="vector-icon4" alt="" src="./storage/Img/vector-6.svg" />
+                            <img class="vector-icon4" alt="" src="./Img/vector-6.svg" />
                         </div>
                     </div>
                     <div class="lo-creaste-lo-prote-parent8">
