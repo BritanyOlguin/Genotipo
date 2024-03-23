@@ -247,7 +247,7 @@
                     <h1 class="lo-creaste-lo8">Nuestros almacenes en México</h1>
                 </div>
                 <div class="screen-shot-2024-02-08-at-132-parent">
-                    <img class="screen-shot-2024-02-08-at-132" loading="lazy" alt="" src="./Img/screen-shot-20240208-at-1321-1@2x.png" />
+                    <iframe class="screen-shot-2024-02-08-at-132" src="https://www.youtube.com/embed/dlLJb9pr0iA?si=GnaJAS6dJSgqQ9Xm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                     <div class="frame-wrapper1">
                         <div class="frame-parent2">
