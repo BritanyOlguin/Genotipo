@@ -8,6 +8,18 @@
     <link rel="stylesheet" href="css/global.css" />
     <link rel="stylesheet" href="css/index.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;600;700;800&display=swap" />
+    <script>
+        window.onscroll = function() {
+            var header = document.querySelector('.header-transparente');
+            var sticky = header.offsetTop + 100;
+
+            if (window.pageYOffset > sticky) {
+                header.classList.add("active");
+            } else {
+                header.classList.remove("active");
+            }
+        };
+    </script>
 </head>
 
 <body>

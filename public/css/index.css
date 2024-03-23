@@ -5,6 +5,7 @@
   background: linear-gradient(185.52deg, #1c156d, #3a2fb9);
   display: none;
 }
+
 .header-transparente-child {
   height: 100%;
   width: 100%;
@@ -18,19 +19,22 @@
   overflow: hidden;
   max-height: 100%;
 }
+
 .logo-icon {
   height: 39px;
   width: 183.6px;
   position: relative;
   z-index: 1;
 }
+
 .inicio-nosotros-almacenaje {
   display: flex;
   align-items: center;
 }
 
 .inicio-nosotros-almacenaje .nav-link {
-  color: white; /* Ajusta según tus necesidades */
+  color: white;
+  /* Ajusta según tus necesidades */
   margin-right: 14px;
   text-decoration: none;
 }
@@ -38,6 +42,7 @@
 .inicio-nosotros-almacenaje .nav-link:last-child {
   margin-right: 0;
 }
+
 .function-hub,
 .iteration-loop {
   display: flex;
@@ -45,22 +50,26 @@
   justify-content: flex-start;
   max-width: 100%;
 }
+
 .iteration-loop {
   flex: 1;
   flex-direction: column;
   padding: 10px 0 0;
   box-sizing: border-box;
 }
+
 .function-hub {
   width: 639px;
   flex-direction: row;
   gap: 22.399999999999977px;
 }
+
 .variable-holder-icon {
   width: 14px;
   height: 14px;
   position: relative;
 }
+
 .control-flow {
   height: 17px;
   display: flex;
@@ -70,6 +79,7 @@
   padding: 3px 0 0;
   box-sizing: border-box;
 }
+
 .function-caller {
   flex: 1;
   position: relative;
@@ -78,23 +88,27 @@
   min-width: 92px;
   white-space: nowrap;
 }
+
 .control-flow-parent,
 .frame-wrapper {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
+
 .control-flow-parent {
   align-self: stretch;
   flex-direction: row;
   gap: 7px;
   z-index: 1;
 }
+
 .frame-wrapper {
   flex: 1;
   flex-direction: column;
   padding: var(--padding-5xs) 0 0;
 }
+
 .flag-mx-svgrepo-com-1-1 {
   accent-color: #128a60;
   margin: 0;
@@ -105,6 +119,7 @@
   flex-shrink: 0;
   z-index: 1;
 }
+
 .error-handler {
   height: 28px;
   display: flex;
@@ -114,6 +129,7 @@
   padding: var(--padding-5xs) 0 0;
   box-sizing: border-box;
 }
+
 .contacto {
   height: 0;
   width: 64px;
@@ -126,12 +142,14 @@
   display: inline-block;
   min-width: 64px;
 }
+
 .data-filter,
 .frame-parent,
 .parallel-branch {
   display: flex;
   align-items: flex-start;
 }
+
 .contact-button {
   background-color: #f26522;
   border: none;
@@ -160,6 +178,7 @@
   justify-content: flex-start;
   gap: var(--gap-xl);
 }
+
 .data-filter {
   width: 267px;
   flex-direction: column;
@@ -168,6 +187,7 @@
   box-sizing: border-box;
   text-align: right;
 }
+
 .header-transparente-item {
   height: 55px;
   width: 55px;
@@ -178,6 +198,7 @@
   object-fit: contain;
   z-index: 100;
 }
+
 .header-transparente {
   align-self: stretch;
   display: flex;
@@ -195,6 +216,19 @@
   font-size: var(--font-size-mini);
   color: var(--color-white);
   font-family: var(--font-sarabun);
+  width: 100%;
+  
+}
+.header-transparente.fixed {
+  position: fixed;
+  top: 0;
+}
+.header-transparente.active {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #211979;
+  transition: background-color 0.5s ease-in-out; /* Transición suave al cambiar de color */
 }
 .mask-group-icon,
 .value-converter-child {
@@ -205,12 +239,18 @@
   height: 253px;
   z-index: 1;
 }
+
+.inicio-nosotros-almacenaje a:hover {
+  color: #f06424;
+}
+
 .mask-group-icon {
   top: 0;
   height: 455px;
   object-fit: cover;
   z-index: 3;
 }
+
 .value-converter {
   height: 455px;
   width: 394px;
@@ -218,13 +258,16 @@
   min-width: 394px;
   max-width: 100%;
 }
+
 .upper-logistics {
   margin: 0;
 }
+
 .empresa-lder-en {
   margin: 0;
   color: var(--color-white);
 }
+
 .lo-creaste-lo-container {
   margin: 0;
   align-self: stretch;
@@ -235,6 +278,7 @@
   font-family: inherit;
   z-index: 1;
 }
+
 .fabricacin-de-pieza {
   position: relative;
   font-size: 20px;
@@ -245,6 +289,7 @@
   max-width: 100%;
   z-index: 1;
 }
+
 .output-selector {
   align-self: stretch;
   display: flex;
@@ -254,9 +299,11 @@
   gap: var(--gap-base);
   max-width: 100%;
 }
+
 .soluciones-integrales-en {
   color: var(--color-white);
 }
+
 .en-innovet-nos-container {
   align-self: stretch;
   position: relative;
@@ -265,12 +312,14 @@
   z-index: 1;
   color: var(--color-lightsteelblue);
 }
+
 .input-validator {
   align-self: stretch;
   flex-direction: column;
   justify-content: flex-start;
   gap: var(--gap-5xl);
 }
+
 .data-routed,
 .input-processor,
 .input-validator,
@@ -279,6 +328,7 @@
   align-items: flex-start;
   max-width: 100%;
 }
+
 .data-routed {
   flex: 1;
   flex-direction: column;
@@ -287,21 +337,25 @@
   box-sizing: border-box;
   min-width: 390px;
 }
+
 .input-processor,
 .output-combiner {
   flex-direction: row;
 }
+
 .output-combiner {
   width: 1117px;
   justify-content: flex-start;
   gap: 123px;
 }
+
 .input-processor {
   width: 1297px;
   justify-content: center;
   padding: 0 var(--padding-xl);
   box-sizing: border-box;
 }
+
 .input-collector {
   align-self: stretch;
   background: linear-gradient(185.52deg, #1c156d, #3a2fb9);
@@ -313,6 +367,7 @@
   max-width: 100%;
   font-size: 50px;
 }
+
 .frame-child {
   height: 90px;
   width: 1400px;
@@ -321,12 +376,14 @@
   display: none;
   max-width: 100%;
 }
+
 .output-filter-icon {
   height: 24px;
   width: 24px;
   position: relative;
   z-index: 1;
 }
+
 .lo-creaste-lo {
   align-self: stretch;
   position: relative;
@@ -334,6 +391,7 @@
   font-weight: 800;
   z-index: 1;
 }
+
 .lo-creaste-lo-prote-wrapper {
   width: 352px;
   display: flex;
@@ -344,6 +402,7 @@
   box-sizing: border-box;
   max-width: calc(100% - 35px);
 }
+
 .rectangle-parent,
 .variable-modifier {
   display: flex;
@@ -352,15 +411,16 @@
   box-sizing: border-box;
   max-width: 100%;
 }
+
 .rectangle-parent {
   flex: 1;
   background-color: var(--color-midnightblue);
   justify-content: center;
-  padding: var(--padding-14xl) var(--padding-xl) var(--padding-14xl)
-    var(--padding-2xl);
+  padding: var(--padding-14xl) var(--padding-xl) var(--padding-14xl) var(--padding-2xl);
   gap: 11px;
   z-index: 2;
 }
+
 .variable-modifier {
   align-self: stretch;
   justify-content: flex-start;
@@ -368,6 +428,7 @@
   text-align: center;
   color: var(--color-white);
 }
+
 .lo-creaste-lo1 {
   position: relative;
   line-height: 108%;
@@ -375,11 +436,13 @@
   display: inline-block;
   max-width: 100%;
 }
+
 .camiones-y-trilers,
 .cargas-pesadas-transporte {
   font-weight: 800;
   color: var(--color-gray);
 }
+
 .en-innovet-nos-container1 {
   align-self: stretch;
   position: relative;
@@ -387,6 +450,7 @@
   line-height: 162.5%;
   color: var(--color-dimgray);
 }
+
 .data-queue {
   width: 394px;
   display: flex;
@@ -396,15 +460,18 @@
   gap: var(--gap-sm);
   max-width: 100%;
 }
+
 .lo-creaste-lo2 {
   position: relative;
   line-height: 108%;
   font-weight: 800;
 }
+
 .transporte-de-cargas {
   font-weight: 800;
   color: var(--color-gray);
 }
+
 .en-innovet-nos-container2 {
   align-self: stretch;
   position: relative;
@@ -412,12 +479,14 @@
   line-height: 162.5%;
   color: var(--color-dimgray);
 }
+
 .data-queue1 {
   width: 394px;
   flex-direction: column;
   justify-content: flex-start;
   gap: var(--gap-sm);
 }
+
 .data-queue1,
 .function-chain,
 .logic-branch,
@@ -426,23 +495,27 @@
   align-items: flex-start;
   max-width: 100%;
 }
+
 .logic-builder {
   width: 1014px;
   flex-direction: row;
   justify-content: space-between;
   gap: var(--gap-xl);
 }
+
 .function-chain,
 .logic-branch {
   align-self: stretch;
   box-sizing: border-box;
 }
+
 .function-chain {
   flex-direction: row;
   justify-content: center;
   padding: 0 var(--padding-xl);
   color: var(--color-darkblue);
 }
+
 .logic-branch {
   flex-direction: column;
   justify-content: flex-start;
@@ -452,6 +525,7 @@
   color: var(--color-chocolate-100);
   font-family: var(--font-sarabun);
 }
+
 .output-combiner-stack-child {
   width: 1400px;
   height: 450px;
@@ -460,12 +534,14 @@
   display: none;
   max-width: 100%;
 }
+
 .en-innovet-nos,
 .lo-creaste-lo3 {
   align-self: stretch;
   position: relative;
   z-index: 1;
 }
+
 .lo-creaste-lo3 {
   margin: 0;
   font-size: inherit;
@@ -476,10 +552,12 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 .en-innovet-nos {
   font-size: var(--font-size-mini);
   line-height: 162.5%;
 }
+
 .function-nesting {
   width: 600px;
   display: flex;
@@ -489,6 +567,7 @@
   gap: 17px;
   max-width: 100%;
 }
+
 .me-interesa {
   height: 0;
   width: 82px;
@@ -501,12 +580,14 @@
   display: inline-block;
   min-width: 82px;
 }
+
 .output-combiner-stack,
 .variable-assigner {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
+
 .variable-assigner {
   cursor: pointer;
   border: 0;
@@ -517,9 +598,11 @@
   white-space: nowrap;
   z-index: 1;
 }
+
 .variable-assigner:hover {
   background-color: #5e52e0;
 }
+
 .output-combiner-stack {
   width: 1400px;
   background-color: var(--color-whitesmoke);
@@ -531,6 +614,7 @@
   debug_commit: f6aba90;
   max-width: 100%;
 }
+
 .mask-group-icon1 {
   height: 450px;
   width: 675px;
@@ -541,6 +625,7 @@
   z-index: 1;
   margin-left: -587px;
 }
+
 .output-combiner-stack-parent {
   align-self: stretch;
   display: flex;
@@ -555,6 +640,7 @@
   color: var(--color-dimgray);
   font-family: var(--font-sarabun);
 }
+
 .lo-creaste-lo4 {
   margin: 0;
   align-self: stretch;
@@ -564,6 +650,7 @@
   font-weight: 800;
   font-family: inherit;
 }
+
 .frame-item {
   position: absolute;
   top: 0;
@@ -573,6 +660,7 @@
   width: 100%;
   height: 100%;
 }
+
 .shape-icon {
   position: absolute;
   top: 23px;
@@ -581,11 +669,13 @@
   height: 24px;
   z-index: 1;
 }
+
 .ellipse-parent {
   height: 70px;
   flex: 1;
   position: relative;
 }
+
 .frame-container {
   cursor: pointer;
   border: 0;
@@ -597,6 +687,7 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
+
 .lo-creaste-lo5 {
   width: 222px;
   position: relative;
@@ -604,12 +695,14 @@
   font-weight: 800;
   display: inline-block;
 }
+
 .almacenar-tu-mercanca,
 .servicio-de-cross,
 .trnsito-de-mercancas {
   font-weight: 800;
   color: var(--color-gray);
 }
+
 .en-innovet-nos-container3 {
   align-self: stretch;
   position: relative;
@@ -617,6 +710,7 @@
   line-height: 162.5%;
   color: var(--color-dimgray);
 }
+
 .frame-group,
 .lo-creaste-lo-prote-parent {
   flex: 1;
@@ -624,17 +718,20 @@
   align-items: flex-start;
   max-width: 100%;
 }
+
 .lo-creaste-lo-prote-parent {
   flex-direction: column;
   justify-content: flex-start;
   gap: var(--gap-sm);
   min-width: 323px;
 }
+
 .frame-group {
   flex-direction: row;
   justify-content: center;
   gap: var(--gap-14xl);
 }
+
 .branching-point,
 .logic-tree,
 .output-handler {
@@ -643,6 +740,7 @@
   justify-content: flex-start;
   max-width: 100%;
 }
+
 .branching-point {
   align-self: stretch;
   flex-direction: row;
@@ -652,24 +750,29 @@
   font-size: var(--font-size-lg);
   color: var(--color-darkblue);
 }
+
 .logic-tree,
 .output-handler {
   flex-direction: column;
 }
+
 .logic-tree {
   align-self: stretch;
   gap: 51px;
 }
+
 .output-handler {
   width: 633px;
   padding: 30px 0 0;
   box-sizing: border-box;
 }
+
 .input-filter-child {
   height: 51.4px;
   width: 51.7px;
   position: relative;
 }
+
 .input-filter {
   align-self: stretch;
   display: flex;
@@ -679,6 +782,7 @@
   max-width: 100%;
   gap: var(--gap-xl);
 }
+
 .frame-inner {
   position: absolute;
   top: 0;
@@ -688,6 +792,7 @@
   width: 100%;
   height: 100%;
 }
+
 .group-icon {
   position: absolute;
   top: 17px;
@@ -696,11 +801,13 @@
   height: 35.1px;
   z-index: 1;
 }
+
 .ellipse-group {
   height: 70px;
   flex: 1;
   position: relative;
 }
+
 .frame-button {
   cursor: pointer;
   border: 0;
@@ -712,6 +819,7 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
+
 .lo-creaste-lo6 {
   width: 341px;
   position: relative;
@@ -720,12 +828,14 @@
   display: inline-block;
   max-width: 100%;
 }
+
 .administracin-de-stock,
 .control-de-inventarios,
 .wms-sistema-de {
   font-weight: 800;
   color: var(--color-gray);
 }
+
 .en-innovet-nos-container4 {
   align-self: stretch;
   position: relative;
@@ -733,6 +843,7 @@
   line-height: 162.5%;
   color: var(--color-dimgray);
 }
+
 .lo-creaste-lo-prote-group {
   flex: 1;
   display: flex;
@@ -743,11 +854,13 @@
   min-width: 323px;
   max-width: 100%;
 }
+
 .data-aggregator-inner,
 .frame-div {
   flex-direction: row;
   justify-content: flex-start;
 }
+
 .frame-div {
   flex: 1;
   display: flex;
@@ -756,6 +869,7 @@
   gap: var(--gap-14xl);
   max-width: 100%;
 }
+
 .data-aggregator-inner {
   width: 632px;
   padding: 0 var(--padding-base);
@@ -764,6 +878,7 @@
   font-size: var(--font-size-lg);
   color: var(--color-darkblue);
 }
+
 .data-aggregator,
 .data-aggregator-inner,
 .data-aggregator-wrapper {
@@ -771,12 +886,14 @@
   align-items: flex-start;
   max-width: 100%;
 }
+
 .data-aggregator {
   width: 875.7px;
   flex-direction: column;
   justify-content: flex-start;
   gap: 45px;
 }
+
 .data-aggregator-wrapper {
   width: 1158.3px;
   flex-direction: row;
@@ -788,6 +905,7 @@
   color: var(--color-gray);
   font-family: var(--font-sarabun);
 }
+
 .rectangle-div {
   height: 338px;
   width: 297px;
@@ -795,11 +913,13 @@
   background-color: var(--color-chocolate-100);
   z-index: 1;
 }
+
 .frame-child1,
 .lo-creaste-lo7 {
   position: relative;
   max-width: 100%;
 }
+
 .frame-child1 {
   width: 1103px;
   height: 338px;
@@ -807,6 +927,7 @@
   display: none;
   z-index: 0;
 }
+
 .lo-creaste-lo7 {
   margin: 0;
   font-size: inherit;
@@ -816,11 +937,13 @@
   display: inline-block;
   z-index: 1;
 }
+
 .centros-de-distribucin,
 .soluciones-de-almacenaje {
   font-weight: 800;
   color: var(--color-white);
 }
+
 .en-innovet-nos-container5 {
   align-self: stretch;
   position: relative;
@@ -829,6 +952,7 @@
   z-index: 1;
   color: var(--color-lightsteelblue);
 }
+
 .frame-child2 {
   width: 342.5px;
   height: 243.5px;
@@ -839,6 +963,7 @@
   object-fit: contain;
   z-index: 2;
 }
+
 .rectangle-container,
 .rectangle-group {
   display: flex;
@@ -846,6 +971,7 @@
   box-sizing: border-box;
   max-width: 100%;
 }
+
 .rectangle-container {
   flex: 1;
   background-color: var(--color-midnightblue);
@@ -856,6 +982,7 @@
   gap: var(--gap-xl);
   min-width: 717px;
 }
+
 .rectangle-group {
   align-self: stretch;
   flex-direction: row;
@@ -868,6 +995,7 @@
   color: var(--color-white);
   font-family: var(--font-sarabun);
 }
+
 .lo-creaste-lo8 {
   margin: 0;
   width: 494px;
@@ -878,6 +1006,7 @@
   font-family: inherit;
   display: inline-block;
 }
+
 .lo-creaste-lo-prote-container {
   align-self: stretch;
   display: flex;
@@ -886,6 +1015,7 @@
   justify-content: center;
   padding: 0 var(--padding-2xl) 0 var(--padding-xl);
 }
+
 .screen-shot-2024-02-08-at-132 {
   height: 430px;
   flex: 1;
@@ -895,11 +1025,13 @@
   object-fit: cover;
   min-width: 499px;
 }
+
 .vector-icon {
   width: 24px;
   height: 24px;
   position: relative;
 }
+
 .vector-wrapper {
   height: 28px;
   display: flex;
@@ -909,6 +1041,7 @@
   padding: var(--padding-9xs) 0 0;
   box-sizing: border-box;
 }
+
 .lo-creaste-lo9 {
   margin: 0;
   position: relative;
@@ -919,6 +1052,7 @@
   display: inline-block;
   min-width: 105px;
 }
+
 .frame-parent4 {
   display: flex;
   flex-direction: row;
@@ -926,6 +1060,7 @@
   justify-content: flex-start;
   gap: var(--gap-sm);
 }
+
 .en-innovet-nos1 {
   align-self: stretch;
   position: relative;
@@ -933,6 +1068,7 @@
   line-height: 162.5%;
   color: var(--color-dimgray);
 }
+
 .frame-parent3 {
   align-self: stretch;
   display: flex;
@@ -941,11 +1077,13 @@
   justify-content: flex-start;
   gap: var(--gap-5xs);
 }
+
 .vector-icon1 {
   width: 24px;
   height: 24px;
   position: relative;
 }
+
 .vector-container {
   height: 28px;
   display: flex;
@@ -955,6 +1093,7 @@
   padding: var(--padding-9xs) 0 0;
   box-sizing: border-box;
 }
+
 .lo-creaste-lo10 {
   margin: 0;
   position: relative;
@@ -965,6 +1104,7 @@
   display: inline-block;
   min-width: 107px;
 }
+
 .frame-parent6 {
   display: flex;
   flex-direction: row;
@@ -972,6 +1112,7 @@
   justify-content: flex-start;
   gap: var(--gap-sm);
 }
+
 .en-innovet-nos2 {
   align-self: stretch;
   position: relative;
@@ -979,6 +1120,7 @@
   line-height: 162.5%;
   color: var(--color-dimgray);
 }
+
 .frame-parent5 {
   align-self: stretch;
   display: flex;
@@ -988,11 +1130,13 @@
   padding: 0 0 var(--padding-9xs);
   gap: var(--gap-5xs);
 }
+
 .vector-icon2 {
   width: 24px;
   height: 24px;
   position: relative;
 }
+
 .vector-frame {
   height: 28px;
   display: flex;
@@ -1002,6 +1146,7 @@
   padding: var(--padding-9xs) 0 0;
   box-sizing: border-box;
 }
+
 .lo-creaste-lo11 {
   margin: 0;
   position: relative;
@@ -1012,6 +1157,7 @@
   display: inline-block;
   min-width: 121px;
 }
+
 .frame-parent8 {
   display: flex;
   flex-direction: row;
@@ -1019,12 +1165,14 @@
   justify-content: flex-start;
   gap: var(--gap-sm);
 }
+
 .en-innovet-nos3 {
   position: relative;
   font-size: var(--font-size-mini);
   line-height: 162.5%;
   color: var(--color-dimgray);
 }
+
 .frame-parent7 {
   display: flex;
   flex-direction: column;
@@ -1032,11 +1180,13 @@
   justify-content: flex-start;
   gap: var(--gap-5xs);
 }
+
 .vector-icon3 {
   width: 24px;
   height: 24px;
   position: relative;
 }
+
 .vector-wrapper1 {
   height: 28px;
   display: flex;
@@ -1046,6 +1196,7 @@
   padding: var(--padding-9xs) 0 0;
   box-sizing: border-box;
 }
+
 .lo-creaste-lo12 {
   margin: 0;
   position: relative;
@@ -1056,6 +1207,7 @@
   display: inline-block;
   min-width: 110px;
 }
+
 .frame-parent10 {
   display: flex;
   flex-direction: row;
@@ -1063,6 +1215,7 @@
   justify-content: flex-start;
   gap: var(--gap-sm);
 }
+
 .en-innovet-nos4 {
   align-self: stretch;
   position: relative;
@@ -1070,10 +1223,12 @@
   line-height: 162.5%;
   color: var(--color-dimgray);
 }
+
 .frame-parent9 {
   align-self: stretch;
   gap: var(--gap-5xs);
 }
+
 .frame-parent2,
 .frame-parent9,
 .frame-wrapper1 {
@@ -1082,10 +1237,12 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
+
 .frame-parent2 {
   align-self: stretch;
   gap: var(--gap-9xl);
 }
+
 .frame-wrapper1 {
   width: 393px;
   padding: var(--padding-14xl) 0 0;
@@ -1093,6 +1250,7 @@
   min-width: 393px;
   max-width: 100%;
 }
+
 .screen-shot-2024-02-08-at-132-parent {
   align-self: stretch;
   flex-direction: row;
@@ -1101,6 +1259,7 @@
   text-align: left;
   font-size: var(--font-size-3xl);
 }
+
 .frame-parent1,
 .por-que-upper-inner,
 .screen-shot-2024-02-08-at-132-parent {
@@ -1108,12 +1267,14 @@
   align-items: flex-start;
   max-width: 100%;
 }
+
 .frame-parent1 {
   width: 1219px;
   flex-direction: column;
   justify-content: flex-start;
   gap: var(--gap-30xl);
 }
+
 .por-que-upper-inner {
   align-self: stretch;
   flex-direction: row;
@@ -1125,6 +1286,7 @@
   color: var(--color-gray);
   font-family: var(--font-sarabun);
 }
+
 .lo-creaste-lo13,
 .lo-creaste-lo14 {
   margin: 0;
@@ -1133,6 +1295,7 @@
   font-weight: 800;
   font-family: inherit;
 }
+
 .lo-creaste-lo13 {
   align-self: stretch;
   line-height: 43px;
@@ -1140,11 +1303,13 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 .lo-creaste-lo14 {
   width: 466px;
   line-height: 24px;
   display: inline-block;
 }
+
 .lo-creaste-lo-prote-frame {
   width: 906px;
   display: flex;
@@ -1156,6 +1321,7 @@
   max-width: 100%;
   font-size: var(--font-size-3xl);
 }
+
 .lo-creaste-lo-prote-parent1 {
   width: 926px;
   display: flex;
@@ -1165,6 +1331,7 @@
   gap: var(--gap-lgi);
   max-width: 100%;
 }
+
 .por-que-upper-child {
   align-self: stretch;
   display: flex;
@@ -1179,6 +1346,7 @@
   color: var(--color-gray);
   font-family: var(--font-sarabun);
 }
+
 .por-que-upper-item {
   margin-right: -94px;
   margin-bottom: 155px;
@@ -1188,6 +1356,7 @@
   max-width: 113%;
   flex-shrink: 0;
 }
+
 .frame-child3 {
   width: 1400px;
   height: 940px;
@@ -1196,6 +1365,7 @@
   display: none;
   max-width: 100%;
 }
+
 .lo-creaste-lo15 {
   margin: 0;
   width: 508px;
@@ -1207,6 +1377,7 @@
   display: inline-block;
   z-index: 1;
 }
+
 .lo-creaste-lo-prote-wrapper1 {
   align-self: stretch;
   display: flex;
@@ -1215,6 +1386,7 @@
   justify-content: center;
   padding: 0 var(--padding-2xl) 0 var(--padding-xl);
 }
+
 .en-innovet-nos5 {
   align-self: stretch;
   position: relative;
@@ -1223,34 +1395,40 @@
   color: var(--color-lightsteelblue);
   z-index: 1;
 }
+
 .data-hub,
 .frame-parent11 {
   display: flex;
   align-items: flex-start;
   max-width: 100%;
 }
+
 .frame-parent11 {
   width: 1011px;
   flex-direction: column;
   justify-content: flex-start;
   gap: 13px;
 }
+
 .data-hub {
   width: 1219px;
   flex-direction: row;
   justify-content: center;
 }
+
 .frame-child4,
 .hombres-tiro-completo-equipo-p-icon {
   align-self: stretch;
   position: relative;
   border-radius: var(--br-3xs);
 }
+
 .frame-child4 {
   height: 585px;
   background-color: var(--color-white);
   display: none;
 }
+
 .hombres-tiro-completo-equipo-p-icon {
   height: 315px;
   max-width: 100%;
@@ -1259,15 +1437,18 @@
   object-fit: cover;
   z-index: 2;
 }
+
 .lo-creaste-lo16 {
   position: relative;
   line-height: 108%;
   font-weight: 800;
   z-index: 2;
 }
+
 .transporte-de-carga {
   color: var(--color-gray);
 }
+
 .en-innovet-nos-container6 {
   align-self: stretch;
   position: relative;
@@ -1276,6 +1457,7 @@
   z-index: 2;
   color: var(--color-dimgray);
 }
+
 .lo-creaste-lo-prote-parent2 {
   align-self: stretch;
   display: flex;
@@ -1284,32 +1466,36 @@
   justify-content: flex-start;
   gap: var(--gap-sm);
 }
+
+.ver-ms-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: none;
+  padding: 5px 15px;
+  background-color: var(--color-yellowgreen);
+  border-radius: 42px;
+  color: white;
+  font-size: 15px;
+  width: auto;
+  height: 35px;
+  text-align: center;
+}
+
 .ver-ms {
-  height: 0;
-  width: 55px;
-  position: relative;
   font-size: var(--font-size-mini);
   font-weight: 800;
   font-family: var(--font-sarabun);
   color: var(--color-white);
-  text-align: center;
-  display: inline-block;
-  min-width: 55px;
+  width: auto;
 }
-.ver-ms-wrapper {
-  cursor: pointer;
-  border: 0;
-  padding: var(--padding-lg) var(--padding-mini-5);
-  background-color: var(--color-yellowgreen);
-  border-radius: var(--br-23xl);
-  flex-direction: row;
-  white-space: nowrap;
-  z-index: 2;
-}
+
 .ver-ms-frame:hover,
 .ver-ms-wrapper:hover {
   background-color: var(--color-forestgreen);
 }
+
 .frame-parent13,
 .frame-wrapper2,
 .rectangle-parent1,
@@ -1318,22 +1504,26 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
+
 .frame-parent13 {
   flex: 1;
   flex-direction: column;
   gap: var(--gap-48xl);
   max-width: 100%;
 }
+
 .frame-wrapper2,
 .rectangle-parent1 {
   box-sizing: border-box;
 }
+
 .frame-wrapper2 {
   align-self: stretch;
   flex-direction: row;
   padding: 0 var(--padding-15xl);
   max-width: 100%;
 }
+
 .rectangle-parent1 {
   width: 392px;
   border-radius: var(--br-3xs);
@@ -1344,18 +1534,21 @@
   gap: var(--gap-10xl);
   z-index: 1;
 }
+
 .frame-child5,
 .pexels-tiger-lily-4483610-1-icon {
   align-self: stretch;
   position: relative;
   border-radius: var(--br-3xs);
 }
+
 .frame-child5 {
   height: 585px;
   background-color: var(--color-white);
   display: none;
   z-index: 0;
 }
+
 .pexels-tiger-lily-4483610-1-icon {
   height: 315px;
   max-width: 100%;
@@ -1364,36 +1557,33 @@
   object-fit: cover;
   z-index: 2;
 }
+
 .lo-creaste-lo17 {
   position: relative;
   line-height: 108%;
   font-weight: 800;
   z-index: 2;
 }
+
 .centros-de-distribucin1,
 .soluciones-de-almacenaje1 {
   color: var(--color-gray);
 }
+
 .en-innovet-nos-container7 {
   align-self: stretch;
   position: relative;
   line-height: 162.5%;
   z-index: 2;
 }
-.ver-ms1 {
-  height: 0;
-  width: 55px;
-  position: relative;
-  font-weight: 800;
-  display: inline-block;
-  min-width: 55px;
-}
+
 .en-innovet-nos-enfo-parent,
 .ver-ms-container {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
+
 .ver-ms-container {
   border-radius: var(--br-23xl);
   background-color: var(--color-yellowgreen);
@@ -1404,6 +1594,7 @@
   text-align: center;
   color: var(--color-white);
 }
+
 .en-innovet-nos-enfo-parent {
   align-self: stretch;
   flex-direction: column;
@@ -1411,18 +1602,21 @@
   font-size: var(--font-size-mini);
   color: var(--color-dimgray);
 }
+
 .frame-wrapper3,
 .lo-creaste-lo-prote-parent3 {
   display: flex;
   align-items: flex-start;
   max-width: 100%;
 }
+
 .lo-creaste-lo-prote-parent3 {
   flex: 1;
   flex-direction: column;
   justify-content: flex-start;
   gap: var(--gap-sm);
 }
+
 .frame-wrapper3 {
   align-self: stretch;
   flex-direction: row;
@@ -1430,6 +1624,7 @@
   padding: 0 var(--padding-15xl) 0 var(--padding-16xl);
   box-sizing: border-box;
 }
+
 .frame-child6 {
   width: 1354px;
   height: 20px;
@@ -1439,6 +1634,7 @@
   bottom: 282px;
   z-index: 3;
 }
+
 .rectangle-parent2 {
   width: 393px;
   border-radius: var(--br-3xs);
@@ -1454,17 +1650,20 @@
   gap: var(--gap-10xl);
   z-index: 1;
 }
+
 .frame-child7,
 .mujer-tiro-medio-tableta-2-icon {
   align-self: stretch;
   position: relative;
   border-radius: var(--br-3xs);
 }
+
 .frame-child7 {
   height: 585px;
   background-color: var(--color-white);
   display: none;
 }
+
 .mujer-tiro-medio-tableta-2-icon {
   height: 315px;
   max-width: 100%;
@@ -1473,16 +1672,19 @@
   object-fit: cover;
   z-index: 2;
 }
+
 .lo-creaste-lo18 {
   position: relative;
   line-height: 108%;
   font-weight: 800;
   z-index: 2;
 }
+
 .cadenas-de-suministro,
 .redes-logsticas-inteligentes {
   color: var(--color-gray);
 }
+
 .en-innovet-nos-container8 {
   align-self: stretch;
   position: relative;
@@ -1491,6 +1693,7 @@
   z-index: 2;
   color: var(--color-dimgray);
 }
+
 .lo-creaste-lo-prote-parent4 {
   align-self: stretch;
   display: flex;
@@ -1499,18 +1702,7 @@
   justify-content: flex-start;
   gap: var(--gap-sm);
 }
-.ver-ms2 {
-  height: 0;
-  width: 55px;
-  position: relative;
-  font-size: var(--font-size-mini);
-  font-weight: 800;
-  font-family: var(--font-sarabun);
-  color: var(--color-white);
-  text-align: center;
-  display: inline-block;
-  min-width: 55px;
-}
+
 .ver-ms-frame {
   cursor: pointer;
   border: 0;
@@ -1524,18 +1716,21 @@
   white-space: nowrap;
   z-index: 2;
 }
+
 .frame-parent14,
 .frame-wrapper4 {
   display: flex;
   align-items: flex-start;
   max-width: 100%;
 }
+
 .frame-parent14 {
   flex: 1;
   flex-direction: column;
   justify-content: flex-start;
   gap: var(--gap-48xl);
 }
+
 .frame-wrapper4 {
   align-self: stretch;
   flex-direction: row;
@@ -1543,6 +1738,7 @@
   padding: 0 var(--padding-15xl) 0 var(--padding-16xl);
   box-sizing: border-box;
 }
+
 .rectangle-parent3 {
   width: 393px;
   border-radius: var(--br-3xs);
@@ -1557,12 +1753,14 @@
   gap: var(--gap-10xl);
   z-index: 1;
 }
+
 .frame-parent12,
 .frame-section {
   display: flex;
   justify-content: flex-start;
   max-width: 100%;
 }
+
 .frame-parent12 {
   width: 1219px;
   overflow-x: auto;
@@ -1573,6 +1771,7 @@
   font-size: var(--font-size-lg);
   color: var(--color-gray);
 }
+
 .frame-section {
   align-self: stretch;
   background-color: var(--color-midnightblue);
@@ -1586,6 +1785,7 @@
   color: var(--color-white);
   font-family: var(--font-sarabun);
 }
+
 .footer-child,
 .footer-item {
   width: 100%;
@@ -1594,16 +1794,19 @@
   right: 0;
   left: 0;
 }
+
 .footer-child {
   height: 450px;
   top: 0;
   background-color: var(--color-whitesmoke);
 }
+
 .footer-item {
   height: 73px;
   bottom: 0;
   background-color: var(--color-gray);
 }
+
 .image-1-icon {
   width: 161.2px;
   height: 56px;
@@ -1611,6 +1814,7 @@
   object-fit: contain;
   z-index: 1;
 }
+
 .lo-creaste-lo19 {
   position: relative;
   line-height: 108%;
@@ -1619,6 +1823,7 @@
   min-width: 80px;
   z-index: 1;
 }
+
 .eficiencia-en-administracin,
 .hub-logstico,
 .sectores,
@@ -1626,6 +1831,7 @@
 .ubicaciones {
   margin: 0;
 }
+
 .en-innovet-nos-container9 {
   align-self: stretch;
   position: relative;
@@ -1633,6 +1839,7 @@
   color: var(--color-dimgray);
   z-index: 1;
 }
+
 .image-1-parent,
 .lo-creaste-lo-prote-parent5 {
   display: flex;
@@ -1640,16 +1847,19 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
+
 .lo-creaste-lo-prote-parent5 {
   align-self: stretch;
   gap: var(--gap-sm);
 }
+
 .image-1-parent {
   flex: 1;
   gap: var(--gap-30xl);
   min-width: 267px;
   max-width: 290px;
 }
+
 .lo-creaste-lo20 {
   position: relative;
   line-height: 108%;
@@ -1658,11 +1868,13 @@
   min-width: 63px;
   z-index: 1;
 }
+
 .fullfillment-carga,
 .logstica-inversa,
 .servicios-inhouse {
   margin: 0;
 }
+
 .en-innovet-nos-container10 {
   align-self: stretch;
   height: 148px;
@@ -1672,17 +1884,20 @@
   display: inline-block;
   z-index: 1;
 }
+
 .frame-wrapper5,
 .lo-creaste-lo-prote-parent6 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
+
 .lo-creaste-lo-prote-parent6 {
   align-self: stretch;
   justify-content: flex-start;
   gap: var(--gap-sm);
 }
+
 .frame-wrapper5 {
   flex: 1;
   justify-content: flex-end;
@@ -1691,18 +1906,21 @@
   min-width: 267px;
   max-width: 290px;
 }
+
 .lo-creaste-lo21 {
   position: relative;
   line-height: 108%;
   font-weight: 800;
   z-index: 1;
 }
+
 .especialidades,
 .ltima-milla,
 .paquetera,
 .tipo-de-unidades {
   margin: 0;
 }
+
 .en-innovet-nos-container11 {
   align-self: stretch;
   position: relative;
@@ -1710,17 +1928,20 @@
   color: var(--color-dimgray);
   z-index: 1;
 }
+
 .frame-wrapper6,
 .lo-creaste-lo-prote-parent7 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
+
 .lo-creaste-lo-prote-parent7 {
   align-self: stretch;
   justify-content: flex-start;
   gap: var(--gap-sm);
 }
+
 .frame-wrapper6 {
   flex: 1;
   justify-content: flex-end;
@@ -1729,11 +1950,13 @@
   min-width: 267px;
   max-width: 290px;
 }
+
 .noun-phone-2331176-icon {
   width: 15px;
   height: 15px;
   position: relative;
 }
+
 .noun-phone-2331176-wrapper {
   height: 23px;
   display: flex;
@@ -1743,6 +1966,7 @@
   padding: var(--padding-5xs) 0 0;
   box-sizing: border-box;
 }
+
 .y-44 {
   position: relative;
   line-height: 135%;
@@ -1752,6 +1976,7 @@
   text-decoration: none;
   min-width: 110px;
 }
+
 .group-div {
   display: flex;
   flex-direction: row;
@@ -1760,28 +1985,33 @@
   gap: 6px;
   z-index: 1;
 }
+
 .vector-icon4 {
   width: 20px;
   height: 19px;
   position: relative;
   z-index: 1;
 }
+
 .frame-parent17,
 .vector-wrapper2 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
+
 .vector-wrapper2 {
   height: 21px;
   flex-direction: column;
   padding: 2px 0 0;
   box-sizing: border-box;
 }
+
 .frame-parent17 {
   flex-direction: row;
   gap: 26px;
 }
+
 .lo-creaste-lo22 {
   position: relative;
   line-height: 108%;
@@ -1790,6 +2020,7 @@
   min-width: 63px;
   z-index: 1;
 }
+
 .acerca-de-nosotros,
 .blog,
 .cobertura,
@@ -1797,6 +2028,7 @@
 .por-qu-upper {
   margin: 0;
 }
+
 .en-innovet-nos-container12 {
   align-self: stretch;
   position: relative;
@@ -1804,6 +2036,7 @@
   color: var(--color-dimgray);
   z-index: 1;
 }
+
 .lo-creaste-lo-prote-parent8 {
   align-self: stretch;
   display: flex;
@@ -1813,12 +2046,14 @@
   gap: var(--gap-sm);
   font-size: var(--font-size-mini);
 }
+
 .frame-parent15,
 .frame-parent16 {
   display: flex;
   align-items: flex-end;
   justify-content: flex-start;
 }
+
 .frame-parent16 {
   flex: 1;
   flex-direction: column;
@@ -1827,6 +2062,7 @@
   max-width: 290px;
   font-size: var(--font-size-lg);
 }
+
 .frame-parent15 {
   width: 1220px;
   flex-direction: row;
@@ -1834,45 +2070,52 @@
   gap: var(--gap-xl);
   max-width: 100%;
 }
+
 .en-innovet-nos6 {
   position: relative;
-  line-height: 32px;
+  margin-top: 5px;
   white-space: pre-wrap;
   display: inline-block;
   max-width: 100%;
   z-index: 1;
 }
+
 .upper-logistics1 {
   font-weight: 600;
 }
+
 .diseo-y-desarrollo {
   font-size: var(--font-size-2xs);
 }
+
 .genotipo1 {
   font-weight: 600;
 }
+
 .genotipo {
   font-size: var(--font-size-2xs);
 }
+
 .en-innovet-nos-container13 {
   position: relative;
-  line-height: 32px;
+  margin-top: 20px;
   text-align: right;
   display: inline-block;
   max-width: 100%;
   z-index: 1;
 }
+
 .en-innovet-nos-enfo-group {
-  width: 1225px;
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
-  max-width: 100%;
   gap: var(--gap-xl);
   font-size: var(--font-size-smi);
   color: var(--color-white);
 }
+
 .footer,
 .por-que-upper {
   position: relative;
@@ -1880,6 +2123,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
+
 .footer {
   align-self: stretch;
   align-items: center;
@@ -1892,6 +2136,7 @@
   color: var(--color-gray);
   font-family: var(--font-sarabun);
 }
+
 .por-que-upper {
   width: 100%;
   background-color: var(--color-white);
@@ -1899,138 +2144,173 @@
   align-items: flex-end;
   letter-spacing: normal;
 }
+
 @media screen and (max-width: 1125px) {
   .output-combiner {
     gap: 123px 61px;
   }
+
   .rectangle-container {
     padding-left: 206px;
     padding-right: 97px;
     box-sizing: border-box;
   }
 }
+
 @media screen and (max-width: 1025px) {
   .iteration-loop {
     display: none;
   }
+
   .function-hub {
     width: 206px;
   }
+
   .value-converter {
     flex: 1;
   }
+
   .lo-creaste-lo-container {
     font-size: 40px;
     line-height: 43px;
   }
+
   .output-combiner {
     flex-wrap: wrap;
   }
+
   .logic-builder {
     flex-wrap: wrap;
     justify-content: center;
   }
+
   .logic-branch {
     padding-bottom: 55px;
     box-sizing: border-box;
   }
+
   .lo-creaste-lo3 {
     font-size: var(--font-size-9xl);
     line-height: 34px;
   }
+
   .output-combiner-stack {
     padding-left: var(--padding-26xl);
     padding-right: var(--padding-26xl);
     box-sizing: border-box;
   }
+
   .lo-creaste-lo7 {
     font-size: var(--font-size-9xl);
     line-height: 30px;
   }
+
   .rectangle-container {
     min-width: 100%;
   }
+
   .lo-creaste-lo8 {
     font-size: var(--font-size-9xl);
     line-height: 39px;
   }
+
   .frame-wrapper1 {
     flex: 1;
   }
+
   .screen-shot-2024-02-08-at-132-parent {
     flex-wrap: wrap;
   }
+
   .lo-creaste-lo13,
   .lo-creaste-lo15 {
     font-size: var(--font-size-9xl);
     line-height: 34px;
   }
+
   .frame-section {
     padding-top: var(--padding-45xl);
     padding-bottom: 86px;
     box-sizing: border-box;
   }
+
   .en-innovet-nos-enfo-group {
     flex-wrap: wrap;
   }
 }
+
 @media screen and (max-width: 750px) {
   .inicio-nosotros-almacenaje {
     display: none;
   }
+
   .data-routed,
   .value-converter {
     min-width: 100%;
   }
+
   .output-combiner {
     gap: 123px 31px;
   }
+
   .output-combiner-stack-parent {
     padding-bottom: 44px;
     box-sizing: border-box;
   }
+
   .frame-group {
     flex-wrap: wrap;
     gap: 33px 16px;
   }
+
   .logic-tree {
     gap: 25px 51px;
   }
+
   .input-filter {
     flex-wrap: wrap;
   }
+
   .frame-div {
     gap: var(--gap-base);
   }
+
   .data-aggregator-wrapper {
     padding-bottom: 68px;
     box-sizing: border-box;
   }
+
   .rectangle-container {
     padding-left: 103px;
     padding-right: 48px;
     box-sizing: border-box;
   }
+
   .frame-wrapper1,
   .screen-shot-2024-02-08-at-132 {
     min-width: 100%;
   }
+
   .screen-shot-2024-02-08-at-132-parent {
     gap: 59px 29px;
   }
+
   .frame-parent1 {
     gap: 24px 49px;
   }
+
   .frame-section,
   .por-que-upper-inner {
     padding-bottom: 105px;
     box-sizing: border-box;
   }
+
   .frame-section {
     gap: 22px 44px;
     padding-top: 42px;
     padding-bottom: 56px;
   }
+
   .footer {
     gap: 44px 88px;
     padding-top: 39px;
@@ -2038,60 +2318,75 @@
     box-sizing: border-box;
   }
 }
+
 @media screen and (max-width: 450px) {
   .frame-parent {
     display: none;
   }
+
   .data-filter {
     width: 0;
   }
+
   .lo-creaste-lo-container {
     font-size: 30px;
     line-height: 32px;
   }
+
   .fabricacin-de-pieza {
     font-size: 16px;
     line-height: 23px;
   }
+
   .output-combiner {
     gap: 123px 15px;
   }
+
   .logic-branch {
     padding-bottom: 36px;
     box-sizing: border-box;
   }
+
   .lo-creaste-lo3 {
     font-size: var(--font-size-2xl);
     line-height: 26px;
   }
+
   .output-combiner-stack {
     padding: var(--padding-45xl) var(--padding-xl) 73px;
     box-sizing: border-box;
   }
+
   .lo-creaste-lo4 {
     font-size: var(--font-size-lg);
     line-height: 19px;
   }
+
   .data-aggregator {
     gap: 22px 45px;
   }
+
   .lo-creaste-lo7 {
     font-size: var(--font-size-2xl);
     line-height: 23px;
   }
+
   .rectangle-container {
     padding-left: var(--padding-xl);
     padding-right: var(--padding-xl);
     box-sizing: border-box;
   }
+
   .rectangle-group {
     padding-bottom: 71px;
     box-sizing: border-box;
   }
+
   .lo-creaste-lo8 {
     font-size: var(--font-size-2xl);
     line-height: 30px;
   }
+
   .lo-creaste-lo10,
   .lo-creaste-lo11,
   .lo-creaste-lo12,
@@ -2099,24 +2394,30 @@
     font-size: var(--font-size-lg);
     line-height: 25px;
   }
+
   .lo-creaste-lo13 {
     font-size: var(--font-size-2xl);
     line-height: 26px;
   }
+
   .lo-creaste-lo14 {
     font-size: var(--font-size-lg);
     line-height: 19px;
   }
+
   .lo-creaste-lo15 {
     font-size: var(--font-size-2xl);
     line-height: 26px;
   }
+
   .image-1-parent {
     gap: 24px 49px;
   }
+
   .frame-parent16 {
     gap: 32px 64px;
   }
+
   .footer {
     gap: 22px 88px;
   }
