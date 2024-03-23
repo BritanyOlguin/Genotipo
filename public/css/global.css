@@ -4,10 +4,8 @@ body {
 }
 
 :root {
-  /* fonts */
   --font-sarabun: Sarabun;
 
-  /* font sizes */
   --font-size-2xs: 11px;
   --font-size-smi: 13px;
   --font-size-mini: 15px;
@@ -17,7 +15,6 @@ body {
   --font-size-2xl: 21px;
   --font-size-3xl: 22px;
 
-  /* Colors */
   --color-white: #fff;
   --color-dimgray: #6f6f71;
   --color-gray: #282829;
@@ -29,7 +26,6 @@ body {
   --color-chocolate-100: #f26522;
   --color-darkblue: #372cbb;
 
-  /* Gaps */
   --gap-xl: 20px;
   --gap-sm: 14px;
   --gap-30xl: 49px;
@@ -42,7 +38,6 @@ body {
   --gap-14xl: 33px;
   --gap-base: 16px;
 
-  /* Paddings */
   --padding-xl: 20px;
   --padding-5xs: 8px;
   --padding-18xl: 37px;
@@ -62,7 +57,6 @@ body {
   --padding-12xs: 1px;
   --padding-mini: 15px;
 
-  /* Border radiuses */
   --br-3xs: 10px;
   --br-23xl: 42px;
 }
