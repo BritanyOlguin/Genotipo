@@ -306,88 +306,29 @@
         <section class="frame-section">
             <div class="frame-child3"></div>
             <div class="data-hub">
-                <div class="frame-parent11">
-                    <div class="lo-creaste-lo-prote-wrapper1">
-                        <h1 class="lo-creaste-lo15">Servicios integrales en logística</h1>
-                    </div>
-                    <div class="en-innovet-nos5">
-                        Contamos con la experiencia, el conocimiento y la infraestructura
-                        necesaria para cubrir todas tus necesidades.
-                    </div>
-                </div>
-            </div>
-            <div class="frame-parent12">
-                <div class="rectangle-parent1">
-                    <div class="frame-child4"></div>
-                    <img class="hombres-tiro-completo-equipo-p-icon" loading="lazy" alt="" src="./storage/Img/hombrestirocompletoequipoproteccion-1@2x.png" />
-
-                    <div class="frame-wrapper2">
-                        <div class="frame-parent13">
-                            <div class="lo-creaste-lo-prote-parent2">
-                                <div class="lo-creaste-lo16">
-                                    Servicios de Transporte Terrestre
-                                </div>
-                                <div class="en-innovet-nos-container6">
-                                    <span>Ofrecemos </span>
-                                    <b class="transporte-de-carga">transporte de carga terrestre</b>
-                                    <span>
-                                        eficiente y seguro, adaptándonos a las necesidades
-                                        específicas de cada cliente.</span>
-                                </div>
-                            </div>
-                            <button class="ver-ms-wrapper">
-                                <div class="ver-ms">Ver más</div>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="rectangle-parent2">
-                    <div class="frame-child5"></div>
-                    <img class="pexels-tiger-lily-4483610-1-icon" loading="lazy" alt="" src="./storage/Img/pexelstigerlily4483610-1@2x.png" />
-
-                    <div class="frame-wrapper3">
-                        <div class="lo-creaste-lo-prote-parent3">
-                            <div class="lo-creaste-lo17">Servicios de Almacenaje</div>
-                            <div class="en-innovet-nos-enfo-parent">
-                                <div class="en-innovet-nos-container7">
-                                    <span>Nos especializamos en ofrecer </span>
-                                    <b class="soluciones-de-almacenaje1">soluciones de almacenaje</b>
-                                    <span> a medida, espacios de almacenamiento seguro y </span>
-                                    <b class="centros-de-distribucin1">centros de distribución</b>
-                                    <span>
-                                        de alta tecnología para satisfacer las necesidades de tu
-                                        negocio.</span>
-                                </div>
-                                <div class="ver-ms-container">
-                                    <div class="ver-ms1">Ver más</div>
+                <?php foreach ($servicios as $servicio) : ?>
+                    <div class="frame-parent12">
+                        <div class="rectangle-parent1">
+                            <div class="frame-child4"></div>
+                            <img class="hombres-tiro-completo-equipo-p-icon" loading="lazy" alt="<?= esc($servicio['titulo']); ?>" src="./storage/<?= esc($servicio['imagen']); ?>" />
+                            <div class="frame-wrapper2">
+                                <div class="frame-parent13">
+                                    <div class="lo-creaste-lo-prote-parent2">
+                                        <div class="lo-creaste-lo16">
+                                            <?= esc($servicio['titulo']); ?>
+                                        </div>
+                                        <div class="en-innovet-nos-container6">
+                                            <?= esc($servicio['descripcion']); ?>
+                                        </div>
+                                    </div>
+                                    <button class="ver-ms-wrapper">
+                                        <div class="ver-ms">Ver más</div>
+                                    </button>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <img class="frame-child6" alt="" src="./storage/Img/group-12.svg" />
-                </div>
-                <div class="rectangle-parent3">
-                    <div class="frame-child7"></div>
-                    <img class="mujer-tiro-medio-tableta-2-icon" loading="lazy" alt="" src="./storage/Img/mujertiromediotableta-2@2x.png" />
-
-                    <div class="frame-wrapper4">
-                        <div class="frame-parent14">
-                            <div class="lo-creaste-lo-prote-parent4">
-                                <div class="lo-creaste-lo18">Servicios de Logística</div>
-                                <div class="en-innovet-nos-container8">
-                                    <span>Transformamos las </span>
-                                    <b class="cadenas-de-suministro">cadenas de suministro </b>
-                                    <span>tradicionales en </span>
-                                    <b class="redes-logsticas-inteligentes">redes logísticas inteligentes</b>
-                                    <span> que impulsan la eficiencia y la rentabilidad.</span>
-                                </div>
-                            </div>
-                            <button class="ver-ms-frame">
-                                <div class="ver-ms2">Ver más</div>
-                            </button>
-                        </div>
-                    </div>
-                </div>
+                <?php endforeach; ?>
             </div>
         </section>
         <footer class="footer">
